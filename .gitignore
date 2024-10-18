@@ -47,3 +47,9 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Camcorder temporary plots
+map-temp
+
+# WIP
+01_points
