@@ -49,36 +49,6 @@ po/*~
 rsconnect/
 
 # Camcorder temporary plots
-map-temp
+/map-temp
 
-# WIP
-/01_points
-/02_lines
-/03_polygons
-/04_hexagons
-/05_journey
-/06_raster
-/07_vintage
-/08_hdx
-/09_ai
-/10_penpaper
-/11_artic
-/12_timespace
-/13_newtool
-/14_world
-/15_mydata
-/16_choropleth
-/17_collab
-/18_3d
-/19_typography
-/20_osm
-/21_conflict
-/22_twocolours
-/23_memory
-/24_onlycircular
-/25_heat
-/26_projections
-/27_micromapping
-/28_blueplanet
-/29_overture
-/30_finalmap
+
