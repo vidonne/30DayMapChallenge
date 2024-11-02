@@ -7,3 +7,4 @@ Maps and code of my contributions to the [#30DayMapChallenge](https://github.com
 ## 2024
 
 1. [Day 01 - Points](01_points/)
+2. [Day 02 - Lines](02_lines/)
