@@ -16,3 +16,4 @@ Maps and code of my contributions to the [#30DayMapChallenge](https://github.com
 8. [Day 08 - Data: HDX](08_hdx/)
 9. [Day 09 - AI only](09_ai/)
 10. [Day 10 - Pen & paper](10_penpaper/)
+11. [Day 11 - Arctic](11_arctic/)
