@@ -17,3 +17,4 @@ Maps and code of my contributions to the [#30DayMapChallenge](https://github.com
 9. [Day 09 - AI only](09_ai/)
 10. [Day 10 - Pen & paper](10_penpaper/)
 11. [Day 11 - Arctic](11_arctic/)
+12. [Day 12 - Time and space](12_timespace/)
