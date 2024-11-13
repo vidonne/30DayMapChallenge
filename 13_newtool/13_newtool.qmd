@@ -1,0 +1,121 @@
+---
+title: "13_newtool"
+format:
+  html:
+    echo: false
+    embed-resources: true 
+---
+
+# R part
+
+```{r}
+#| message: false
+#| warning: false
+#| label: package
+library(sf)
+library(giscoR)
+library(tidyverse)
+library(geojsonsf)
+
+```
+
+```{r}
+#| message: false
+#| warning: false
+#| label: data
+
+adm3 <- st_read(here::here("13_newtool", "input", "K4polg20230101gf_ch2007Poly.shp"))|> 
+  st_transform(crs = 4326)
+
+adm0 <- st_read(here::here("13_newtool", "input", "K4suis18480101gf_ch2007Poly.shp"))|> 
+  st_transform(crs = 4326)
+
+pop <- readr::read_delim(here::here("13_newtool", "input", "27876_132.csv"), delim = ";") |>
+  janitor::clean_names() |> 
+  filter(variable == "Habitants par km² de la surface totale")
+
+pop_sf <- adm3 |> 
+  left_join(pop, by = c("id" = "geo_id"))
+
+ojs_define(pop_str = sf_geojson(pop_sf))
+ojs_define(adm0_str = sf_geojson(adm0))
+
+```
+
+## Observable part
+
+```{ojs}
+d3 = require("d3@7", "d3-geo-projection@4")
+bertin = require('bertin@latest')
+
+```
+
+```{ojs}
+pop_spike = JSON.parse(pop_str)
+country = JSON.parse(adm0_str)
+proj = "+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs +type=crs"
+```
+
+
+```{ojs}
+
+bertin.draw({
+  params: { 
+    projection: proj,
+    margin: 15,
+   },
+  layers: [
+    {
+      type: "header",
+      text: "Population Density in Switzerland",
+      fill: "#222222",
+      anchor: "left",
+      fontSize: 40,
+    },
+    {
+      type: "text",
+      text: "The New Tool Way, Spikes with Bertin.js",
+      position: "topleft",
+      fill: "#444444",
+      fontSize: 24,
+      fontStyle: "italic",
+      margin: 0,
+      frame_fill: "#FFFFFF"
+    },
+    {
+      type: "footer",
+      text: "Data: BFS · Map: Cédric Vidonne · #30DayMapChallenge",
+      anchor: "left",
+      fill: "#666666",
+      fontSize: 16,
+    },
+    {
+      type: "layer",
+      geojson: country,
+      fill: "#000000",
+      fillOpacity: 0.1,
+      stroke: "none"
+    },
+    {
+      type: "spikes",
+      geojson: pop_spike,
+      values: "value",
+      fill: "#f26829",
+      fillOpacity: 0.2,
+      stroke: "#f26829",
+      k: 100,
+      w: 8,
+      leg_x: 20,
+      leg_y: 50,
+      leg_fontSize: 14,
+      leg_fontSize2: 12,
+      leg_round: 0,
+      leg_title: `Inhabitants
+      by km²`
+    },
+    // { type: "graticule" },
+    // { type: "outline" }
+  ]
+})
+
+```
