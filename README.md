@@ -1,6 +1,6 @@
 # 30DayMapChallenge
 
-Maps and code of my contributions to the [#30DayMapChallenge](https://github.com/tjukanovt/30DayMapChallenge) 
+Maps and code of my contributions to the [#30DayMapChallenge](https://github.com/tjukanovt/30DayMapChallenge)
 
 ![Themes for the maps. See more below.](https://github.com/tjukanovt/30DayMapChallenge/raw/main/images/flyers/30dmc_2024.png)
 
@@ -21,3 +21,4 @@ Maps and code of my contributions to the [#30DayMapChallenge](https://github.com
 13. [Day 13 - A new tool](13_newtool/)
 14. [Day 14 - A world map](14_world/)
 15. [Day 15 - Data: My data](15_mydata/)
+16. [Day 16 - Choropleth](16_choropleth)
