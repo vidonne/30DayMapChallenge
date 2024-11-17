@@ -22,3 +22,4 @@ Maps and code of my contributions to the [#30DayMapChallenge](https://github.com
 14. [Day 14 - A world map](14_world/)
 15. [Day 15 - Data: My data](15_mydata/)
 16. [Day 16 - Choropleth](16_choropleth)
+17. [Day 17 - Collaborative map](17_collab/)
