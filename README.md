@@ -23,4 +23,5 @@ Maps and code of my contributions to the [#30DayMapChallenge](https://github.com
 15. [Day 15 - Data: My data](15_mydata/)
 16. [Day 16 - Choropleth](16_choropleth)
 17. [Day 17 - Collaborative map](17_collab/)
-18. [Day 19 - 3D](18_3d/)
+18. [Day 18 - 3D](18_3d/)
+19. [Day 19 - Typography](19_typography/)
