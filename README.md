@@ -25,3 +25,4 @@ Maps and code of my contributions to the [#30DayMapChallenge](https://github.com
 17. [Day 17 - Collaborative map](17_collab/)
 18. [Day 18 - 3D](18_3d/)
 19. [Day 19 - Typography](19_typography/)
+20. [Day 20 - Data: OpenStreetMap](20_osm/)
