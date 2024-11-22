@@ -26,5 +26,5 @@ Maps and code of my contributions to the [#30DayMapChallenge](https://github.com
 18. [Day 18 - 3D](18_3d/)
 19. [Day 19 - Typography](19_typography/)
 20. [Day 20 - Data: OpenStreetMap](20_osm/)
-21. [Day 21 - Data: Conflict](21_conflict/)
+21. [Day 21 - Conflict](21_conflict/)
 22. [Day 22 - 2 colours](22_twocolours/)
