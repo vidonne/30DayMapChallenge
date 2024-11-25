@@ -51,4 +51,6 @@ rsconnect/
 # Camcorder temporary plots
 /map-temp
 
+# too big data
+/25_heat/input
 
