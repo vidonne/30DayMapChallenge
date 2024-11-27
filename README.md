@@ -32,3 +32,4 @@ Maps and code of my contributions to the [#30DayMapChallenge](https://github.com
 24. [Day 24 - Only circular shape](24_onlycircular/)
 25. [Day 25 - Heat](25_heat/)
 26. [Day 26 - Map projections](26_projections/)
+27. [Day 27 - Micromapping](27_micromapping/)
