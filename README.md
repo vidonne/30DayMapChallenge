@@ -35,3 +35,4 @@ Maps and code of my contributions to the [#30DayMapChallenge](https://github.com
 27. [Day 27 - Micromapping](27_micromapping/)
 28. [Day 28 - The blue planet](28_blueplanet/)
 29. [Day 29 - Data: Overture](29_overture/)
+30. [Day 30 - The final map](30_finalmap/)

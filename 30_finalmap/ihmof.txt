@@ -1,0 +1,46 @@
+Hillshade trad:
+Color, Transparency, Position
+#151B1E, 0%, 0
+#151B1E, 20%, 31%
+#0084A8, 50%, 55%
+#AB6BD4, 100%, 66%
+#FFC17F, 75%, 73%
+#FFE9A9, 20%, 86%
+#FFF2CD, 0%, 100%
+
+Hillshade mult:
+Color, Transparency, Position
+#774246, 0%, 0
+#151B1E, 10%, 40%
+#0084A8, 50%, 58%
+#AB6BD4, 100%, 70%
+#FFC17F, 85%, 80%
+#FFDC73, 20%, 100%
+
+Hillshade glacier:
+Color, Transparency, Position
+#45748E, 0%, 0
+#EAF4ED, 0%, 50%
+#FFFFFF, 0%, 100%
+
+
+
+
+
+Mist !range
+Color, Transparency, Position
+#759090, 15%, 0
+#FFDFB8, 90%, 50%
+#EDFFFF, 100%, 100%
+
+River:
+#48797E or #D9CE9D
+
+Country:
+#978E39 80% trans
+
+Lake:
+#48797E
+
+Mask:
+#45677E 50% trans
