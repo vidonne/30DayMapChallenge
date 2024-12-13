@@ -43,6 +43,4 @@ Maps and code of my contributions to the [#30DayMapChallenge](https://github.com
 
 </details>
 
-<br>
-
-![A collage featuring 30 vignettes, each representing a map created for the #30DayMapChallenge 2024. The title "30DayMapChallenge 2024 Roundup - Cedric Vidonne" appears prominently at the top. Each map showcases diverse themes and techniques, ranging from global humanitarian data and Swiss geography to creative experiments in cartography.](2024_roundup.png)
+![A collage featuring 30 vignettes, each representing a map created for the #30DayMapChallenge 2024. The title "30DayMapChallenge 2024 Roundup - Cedric Vidonne" appears prominently at the top. Each map showcases diverse themes and techniques, ranging from global humanitarian data and Swiss geography to creative experiments in cartography.](2024_roundup.jpg)
