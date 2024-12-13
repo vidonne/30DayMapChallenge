@@ -6,6 +6,10 @@ Maps and code of my contributions to the [#30DayMapChallenge](https://github.com
 
 ## 2024
 
+<details>
+
+<summary>Contributions details</summary>
+
 1. [Day 01 - Points](01_points/)
 2. [Day 02 - Lines](02_lines/)
 3. [Day 03 - Polygons](03_polygons/)
@@ -36,3 +40,9 @@ Maps and code of my contributions to the [#30DayMapChallenge](https://github.com
 28. [Day 28 - The blue planet](28_blueplanet/)
 29. [Day 29 - Data: Overture](29_overture/)
 30. [Day 30 - The final map](30_finalmap/)
+
+</details>
+
+<br>
+
+![A collage featuring 30 vignettes, each representing a map created for the #30DayMapChallenge 2024. The title "30DayMapChallenge 2024 Roundup - Cedric Vidonne" appears prominently at the top. Each map showcases diverse themes and techniques, ranging from global humanitarian data and Swiss geography to creative experiments in cartography.](2024_roundup.png)
